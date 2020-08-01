@@ -1,0 +1,38 @@
+{
+  "totals": "2",
+  "records": "3",
+  "page": "1",
+  "rows": [
+    {
+      "id": "1",
+      "username": "小黄",
+      "phone": "15236674712",
+      "picImg": "/upload/video/a_5J4arbCmF6yh1573092149.mp4",
+      "sign": "我是一个小可爱",
+      "status": "1",
+      "wechat": "15236674712",
+      "createDate": "2012-12-12",
+      "score": "15"
+    },{
+      "id": "2",
+      "username": "小黑",
+      "phone": "15236674712",
+      "picImg": "/upload/video/a_dGqrRWsafeku1575523287.mp4",
+      "sign": "我是一个小可爱",
+      "status": "0",
+      "wechat": "15236674712",
+      "createDate": "2012-12-12",
+      "score": "15"
+    },{
+      "id": "3",
+      "username": "小刘",
+      "phone": "15236674712",
+      "picImg": "/upload/video/a_DqVWrYGj6THW1567330203.MP4",
+      "sign": "我是一个小可爱",
+      "status": "1",
+      "wechat": "15236674712",
+      "createDate": "2012-12-12",
+      "score": "15"
+    }
+  ]
+}

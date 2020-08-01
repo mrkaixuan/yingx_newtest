@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkx.dao.UserMapper">
+  <select id="queryMessage" resultType="com.hkx.entity.City">
+    SELECT yx_user.city name,count(id) value FROM yx_user WHERE sex= #{sex} GROUP BY city
+  </select>
+  <select id="queryMonth" resultType="com.hkx.entity.City">
+    select month(create_date) name,COUNT(id) value from yx_user where sex=#{sex} GROUP BY month(create_date)
+  </select>
+</mapper>

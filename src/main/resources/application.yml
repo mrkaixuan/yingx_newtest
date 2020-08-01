@@ -1,0 +1,24 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /yingx
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yingx
+    username: root
+    password: root
+  mvc:
+    view: #视图解析器
+      prefix: /
+      suffix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+mybatis:
+  type-aliases-package: com.hkx.entity #给整个包起别名
+  mapper-locations: classpath:com/hkx/mapper/*Mapper.xml #扫描mapper 给自定义mapper生效
