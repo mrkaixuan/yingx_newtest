@@ -62,7 +62,7 @@ public class ApplicationInterfaceController {
     }
     @RequestMapping("queryAllCategory")
     public  CommonResult queryAllCategory(){
-        //categoryService.
+        //categoryService.你好哈哈哈
         return  null;
     }
 
